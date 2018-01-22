@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Mediterranean Diet Quiz</string>
+    <string name="question_a">A</string>
+    <string name="main_quiz">Welcome to Mediterranean Diet Quiz !</string>
+    <string name="string_hint">"Write your name"</string>
+    <string name="first_string">"1. Which year did the Mediterranean diet become UNESCO heritage?"</string>
+    <string name="first_answer">1950</string>
+    <string name="second_answer">1991</string>
+    <string name="third_answer">2011</string>
+    <string name="fourth_answer">2013</string>
+    <string name="second_question">"2. Who was the first scientist to introduce the concept of a Mediterranean diet?"</string>
+    <string name="first_answerB">Lorenzo Piroddi</string>
+    <string name="second_answerB">Ancel Keys</string>
+    <string name="third_answerB">Elizabeth David</string>
+    <string name="fourth_answerB">Maximilian Bircher-Benner"</string>
+    <string name="third_question">"3. What encouraged the development of the Mediterranean diet in the 40s in Italy?"</string>
+    <string name="first_answerC">economic well-being</string>
+    <string name="second_answerC">"advanced technological means"</string>
+    <string name="third_answerC">sedentary lifestyle</string>
+    <string name="fourth_answerC">economic difficulty and resource limitation</string>
+    <string name="fourth_question">4. In which countries is the Mediterranean diet according to UNESCO?</string>
+    <string name="first_answerD">Croatia</string>
+    <string name="second_answerD">Egypt</string>
+    <string name="third_answerD">Morocco</string>
+    <string name="fourth_answerD">Turkey</string>
+    <string name="fifth_question">5. Who was the promoter country to apply for the diet as a UNESCO heritage?</string>
+    <string name="fifth_answer">Write here the answer</string>
+    <string name="sixth_question">"6. According to some research, what is the % of caloric intake of extra virgin olive oil?" </string>
+    <string name="first_answerE">25%</string>
+    <string name="second_answerE">20%-23,4%</string>
+    <string name="third_answerE">5%-8%</string>
+    <string name="fourth_answerE">13%-17%></string>
+    <string name="seventh_question">7. Whats food is the basis of the dietary pyramid of the diet?</string>
+    <string name="first_answerF">Potatoes</string>
+    <string name="second_answerF">Cheeses</string>
+    <string name="third_answerF">Red meat</string>
+    <string name="fourth_answerF">Cereals</string>
+    <string name="eight_question">8. According to the diet which food should be consumed weekly for three servings?</string>
+    <string name="first_answerL">Fish</string>
+    <string name="second_answerL">White Meats</string>
+    <string name="third_answerL">Eggs</string>
+    <string name="fourth_answerL">Vegetables</string>
+    <string name="ninth_question">9. Who was the first scientist to systematically study the diet?</string>
+    <string name="first_answerM">Ancel Keys</string>
+    <string name="second_answerM">Lorenzo Piroddi</string>
+    <string name="third_answerM">Giacomo Castelvetro </string>
+    <string name="fourth_answerM">Maria de Lourdes Modesto </string>
+
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dimen_main">40dp</dimen>
+    <dimen name="textMain">25sp</dimen>
+    <dimen name="dimen_hint">90dp</dimen>
+
+
+
+</resources>
