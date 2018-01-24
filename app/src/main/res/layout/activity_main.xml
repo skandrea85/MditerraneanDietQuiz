@@ -45,6 +45,12 @@
                 android:gravity="center"
                 android:hint="@string/string_hint"
                 android:textColorHint="@color/soft_green"
+                android:textColor="@color/soft_green"
+                android:inputType="textCapWords"
+
+
+
+
 
 
                 />
@@ -95,6 +101,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/first_answer"
+                android:layout_marginLeft="@dimen/marginLeftbutton"
+
+                android:layout_marginTop="15dp"
 
 
 
@@ -106,7 +115,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/second_answer"
-
+                android:layout_marginLeft="@dimen/marginLeftbutton"
 
                 />
 
@@ -114,14 +123,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/third_answer"
-
+                android:layout_marginLeft="@dimen/marginLeftbutton"
                 />
 
             <RadioButton
                 android:id="@+id/answerRight1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/fourth_answer" />
+                android:text="@string/fourth_answer"
+                android:layout_marginLeft="@dimen/marginLeftbutton"
+                android:layout_marginBottom="20dp"
+
+
+                />
 
 
         </RadioGroup>
@@ -158,24 +172,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/first_answerB"
-
+                android:layout_marginLeft="@dimen/marginLeftbutton"
 
                 />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/second_answerB" />
+                android:text="@string/second_answerB"
+                android:layout_marginLeft="@dimen/marginLeftbutton"
+
+                />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/third_answerB" />
+                android:text="@string/third_answerB"
+                android:layout_marginLeft="@dimen/marginLeftbutton"
+                />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/fourth_answerB" />
+                android:text="@string/fourth_answerB"
+                android:layout_marginLeft="@dimen/marginLeftbutton"
+
+                />
 
 
         </RadioGroup>
@@ -209,18 +231,23 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/first_answerC" />
+                android:text="@string/first_answerC"
+                android:layout_marginLeft="@dimen/marginLeftbutton"
+                />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/second_answerC" />
+                android:text="@string/second_answerC"
+                android:layout_marginLeft="@dimen/marginLeftbutton"
+
+                />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/third_answerC"
-
+                android:layout_marginLeft="@dimen/marginLeftbutton"
 
                 />
 
@@ -229,7 +256,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/fourth_answerC"
-
+                android:layout_marginLeft="@dimen/marginLeftbutton"
 
                 />
 
@@ -259,7 +286,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/log"
                 android:drawableLeft="@drawable/croatia_flags"
-                android:text="@string/first_answerD" />
+                android:text="@string/first_answerD"
+                android:layout_marginLeft="@dimen/marginLeftbutton"
+
+                />
 
             <CheckBox
                 android:id="@+id/answerWrong4A"
@@ -267,7 +297,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/log"
                 android:drawableLeft="@drawable/egypt_flag"
-                android:text="@string/second_answerD" />
+                android:text="@string/second_answerD"
+                android:layout_marginLeft="@dimen/marginLeftbutton"
+                />
 
             <CheckBox
                 android:id="@+id/answerRight4B"
@@ -276,7 +308,7 @@
                 android:layout_below="@id/log"
                 android:drawableLeft="@drawable/morocco_flags"
                 android:text="@string/third_answerD"
-
+                android:layout_marginLeft="@dimen/marginLeftbutton"
 
                 />
 
@@ -286,7 +318,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/log"
                 android:drawableLeft="@drawable/turkey_flags"
-                android:text="@string/fourth_answerD" />
+                android:text="@string/fourth_answerD"
+                android:layout_marginLeft="@dimen/marginLeftbutton"
+
+                />
 
 
         </LinearLayout>
@@ -326,6 +361,7 @@
                 android:gravity="center"
                 android:hint="@string/fifth_answer"
                 android:layout_marginBottom="@dimen/textMain"
+                android:inputType="textCapWords"
 
                 />
 
@@ -355,29 +391,41 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scaleType="centerCrop"
-                android:src="@drawable/plant_flower" />
+                android:src="@drawable/plant_flower"
+                android:layout_marginLeft="@dimen/marginLeftbutton"
+
+                />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/first_answerE" />
+                android:text="@string/first_answerE"
+                android:layout_marginLeft="@dimen/marginLeftbutton"
+
+                />
 
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/second_answerE" />
+                android:text="@string/second_answerE"
+                android:layout_marginLeft="@dimen/marginLeftbutton"
+                />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/third_answerE" />
+                android:text="@string/third_answerE"
+                android:layout_marginLeft="@dimen/marginLeftbutton"
+                />
 
             <RadioButton
                 android:id="@+id/answerRight6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/fourth_answerE" />
+                android:text="@string/fourth_answerE"
+                android:layout_marginLeft="@dimen/marginLeftbutton"
+                />
 
 
         </RadioGroup>
@@ -415,7 +463,7 @@
                 android:id="@+id/right_box7A"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
+                android:layout_marginLeft="@dimen/marginLeftbutton"
                 android:text="@string/first_answerF" />
 
             <CheckBox
@@ -423,14 +471,17 @@
                 android:id="@+id/wrong_Box7B"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/second_answerF" />
+                android:text="@string/second_answerF"
+                android:layout_marginLeft="@dimen/marginLeftbutton"
+
+                />
 
             <CheckBox
 
                 android:id="@+id/wrong_box7A"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
+                android:layout_marginLeft="@dimen/marginLeftbutton"
 
                 android:text="@string/third_answerF"
 
@@ -441,7 +492,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/fourth_answerF"
-
+                android:layout_marginLeft="@dimen/marginLeftbutton"
 
                 />
 
@@ -479,7 +530,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/first_answerL"
-
+                android:layout_marginLeft="@dimen/marginLeftbutton"
 
                 />
 
@@ -487,7 +538,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/second_answerL"
-
+                android:layout_marginLeft="@dimen/marginLeftbutton"
                 />
 
             <RadioButton
@@ -495,13 +546,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/third_answerL"
-
+                android:layout_marginLeft="@dimen/marginLeftbutton"
                 />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/fourth_answerL" />
+                android:text="@string/fourth_answerL"
+                android:layout_marginLeft="@dimen/marginLeftbutton"
+
+                />
 
 
         </RadioGroup>
@@ -540,28 +594,30 @@
                 android:id="@+id/answerRight9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
+                android:layout_marginLeft="@dimen/marginLeftbutton"
                 android:text="@string/first_answerM" />
 
             <RadioButton
                 android:id="@+id/two_box"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/second_answerM" />
+                android:text="@string/second_answerM"
+                android:layout_marginLeft="@dimen/marginLeftbutton"
+                />
 
             <RadioButton
                 android:id="@+id/three"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/third_answerL"
-
+                android:layout_marginLeft="@dimen/marginLeftbutton"
                 />
 
             <RadioButton
                 android:id="@+id/four"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
+                android:layout_marginLeft="@dimen/marginLeftbutton"
                 android:text="@string/fourth_answerL"
 
 
@@ -584,6 +640,23 @@
             android:layout_marginBottom="@dimen/textMain"
 
             />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/custom_toast_container"
+
+
+            >
+
+            <TextView android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                />
+
+
+
+        </LinearLayout>
 
 
     </LinearLayout>

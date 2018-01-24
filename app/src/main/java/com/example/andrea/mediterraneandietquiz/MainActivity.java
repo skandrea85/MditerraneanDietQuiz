@@ -108,8 +108,12 @@ public class MainActivity extends AppCompatActivity {
                 getAnswerBoxFourA, getAswerBoxFourB, getAnswerBoxSevenA, getAnswerBoxSevenB, wrongAnswerBoxFourA,
                 wrongAnswerBoxFourB, wrongAnswerBoxSevenA, wrongAnswerBoxSevenB, getAnswerFive);
 
+
+
+
+
         if (scorePoint > 0) {
-            Toast.makeText(this, name + "your score is" + scorePoint, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, name + "   your score is   " + scorePoint, Toast.LENGTH_SHORT).show();
 
         }
 
