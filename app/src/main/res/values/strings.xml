@@ -29,7 +29,7 @@
     <string name="first_answerE">25%</string>
     <string name="second_answerE">20%-23,4%</string>
     <string name="third_answerE">5%-8%</string>
-    <string name="fourth_answerE">13%-17%></string>
+    <string name="fourth_answerE">13%-17%</string>
     <string name="seventh_question">7. Whats food is the basis of the dietary pyramid of the diet?</string>
     <string name="first_answerF">Potatoes</string>
     <string name="second_answerF">Cheeses</string>
@@ -44,7 +44,12 @@
     <string name="first_answerM">Ancel Keys</string>
     <string name="second_answerM">Lorenzo Piroddi</string>
     <string name="third_answerM">Giacomo Castelvetro </string>
-    <string name="fourth_answerM">Maria de Lourdes Modesto </string>
+    <string name="fourth_answerM">Maria de Lourdes Modesto</string>
+    <string name="buttonQuiz">Quiz Result</string>
+    <string name="JavaR">this fork is not for you you do not deserve it! </string>
+
+    <string name="MedPoint">Not bad! But  you  should visit Mediterranean markets, your score is </string>
+    <string name="fullPoint">Well done! You  can take sit!</string>
 
 
 </resources>

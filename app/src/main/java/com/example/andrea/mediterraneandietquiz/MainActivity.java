@@ -1,21 +1,26 @@
 package com.example.andrea.mediterraneandietquiz;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.RadioButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    int scorePoint =0;
 
+    //
 
-
-
-
+    int scorePoint = 0;
 
 
     RadioButton answer1;
@@ -45,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState);
 
         outState.putInt("scoreQuiz", scorePoint);
-
 
 
     }
@@ -86,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void checkQuiz(View view) {
 
-      String name = namePlayer.getText().toString();
+        String name = namePlayer.getText().toString();
 
         boolean getAnswerOne = answer1.isChecked();
         boolean getAswerTwo = answer2.isChecked();
@@ -109,16 +113,53 @@ public class MainActivity extends AppCompatActivity {
                 wrongAnswerBoxFourB, wrongAnswerBoxSevenA, wrongAnswerBoxSevenB, getAnswerFive);
 
 
+        if (scorePoint > 0&& scorePoint<=5) {
+            createToastMessage(name + "   " + getString(R.string.JavaR) + "   " + scorePoint, R.drawable.fork);
+
+
+        } else if(scorePoint>5 && scorePoint<9){
+
+            createToastMessage(name+ " " +getString(R.string.MedPoint)+"  "+scorePoint,R.drawable.plant);
 
 
 
-        if (scorePoint > 0) {
-            Toast.makeText(this, name + "   your score is   " + scorePoint, Toast.LENGTH_SHORT).show();
+        }else if(scorePoint==9){
+            createToastMessage(name+"  "+getString(R.string.fullPoint)+"   "+scorePoint,R.drawable.table);
+
 
         }
 
+            resetQuiz(view);
 
     }
+
+
+    public void resetQuiz(View v) {
+        scorePoint = 0;
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
+    private void createToastMessage(String textMessage, int imageId) {
+
+        Context context = getApplicationContext();
+        LayoutInflater inflater = getLayoutInflater();
+        View layout = inflater.inflate(R.layout.custom_toast,
+                (ViewGroup) findViewById(R.id.custom_toast_container));
+        TextView text = (TextView) layout.findViewById(R.id.text);
+        ImageView image = (ImageView) layout.findViewById(R.id.imagetoast);
+        Toast toast = new Toast(context);
+        toast.setGravity(Gravity.CENTER | Gravity.CENTER, 0, 0);
+        toast.setDuration(Toast.LENGTH_LONG);
+        toast.setView(layout);
+        text.setText(textMessage);
+        image.setImageResource(imageId);
+        toast.show();
+
+        return;
+
+    }
+
 
     private int calculateQuiz(boolean answerOne, boolean answerTwo, boolean answerThree, boolean answerSix, boolean answerEight,
                               boolean answerNine, boolean answerBoxFourA, boolean answerBoxFourB, boolean answerBoxSevenA, boolean answerBoxSevenB,

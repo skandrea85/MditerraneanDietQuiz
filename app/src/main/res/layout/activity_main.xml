@@ -103,7 +103,7 @@
                 android:text="@string/first_answer"
                 android:layout_marginLeft="@dimen/marginLeftbutton"
 
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="@dimen/marginLeftbutton"
 
 
 
@@ -132,7 +132,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/fourth_answer"
                 android:layout_marginLeft="@dimen/marginLeftbutton"
-                android:layout_marginBottom="20dp"
+                android:layout_marginBottom="@dimen/marginLeftbutton"
 
 
                 />
@@ -173,6 +173,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/first_answerB"
                 android:layout_marginLeft="@dimen/marginLeftbutton"
+                android:layout_marginTop="@dimen/marginLeftbutton"
 
                 />
 
@@ -196,6 +197,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/fourth_answerB"
                 android:layout_marginLeft="@dimen/marginLeftbutton"
+                android:layout_marginBottom="@dimen/marginLeftbutton"
 
                 />
 
@@ -233,6 +235,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/first_answerC"
                 android:layout_marginLeft="@dimen/marginLeftbutton"
+                android:layout_marginTop="@dimen/marginLeftbutton"
                 />
 
             <RadioButton
@@ -257,6 +260,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/fourth_answerC"
                 android:layout_marginLeft="@dimen/marginLeftbutton"
+                android:layout_marginBottom="@dimen/marginLeftbutton"
+
 
                 />
 
@@ -288,6 +293,7 @@
                 android:drawableLeft="@drawable/croatia_flags"
                 android:text="@string/first_answerD"
                 android:layout_marginLeft="@dimen/marginLeftbutton"
+                android:layout_marginTop="@dimen/marginLeftbutton"
 
                 />
 
@@ -320,6 +326,7 @@
                 android:drawableLeft="@drawable/turkey_flags"
                 android:text="@string/fourth_answerD"
                 android:layout_marginLeft="@dimen/marginLeftbutton"
+                android:layout_marginBottom="@dimen/marginLeftbutton"
 
                 />
 
@@ -392,7 +399,6 @@
                 android:layout_height="wrap_content"
                 android:scaleType="centerCrop"
                 android:src="@drawable/plant_flower"
-                android:layout_marginLeft="@dimen/marginLeftbutton"
 
                 />
 
@@ -401,6 +407,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/first_answerE"
                 android:layout_marginLeft="@dimen/marginLeftbutton"
+                android:layout_marginTop="@dimen/marginLeftbutton"
 
                 />
 
@@ -425,6 +432,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/fourth_answerE"
                 android:layout_marginLeft="@dimen/marginLeftbutton"
+                android:layout_marginBottom="@dimen/marginLeftbutton"
                 />
 
 
@@ -464,7 +472,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/marginLeftbutton"
-                android:text="@string/first_answerF" />
+                android:text="@string/first_answerF"
+                android:layout_marginTop="@dimen/marginLeftbutton"
+                />
 
             <CheckBox
 
@@ -493,6 +503,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/fourth_answerF"
                 android:layout_marginLeft="@dimen/marginLeftbutton"
+                android:layout_marginBottom="@dimen/marginLeftbutton"
 
                 />
 
@@ -531,6 +542,7 @@
                 android:layout_height="match_parent"
                 android:text="@string/first_answerL"
                 android:layout_marginLeft="@dimen/marginLeftbutton"
+                android:layout_marginTop="@dimen/marginLeftbutton"
 
                 />
 
@@ -554,6 +566,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/fourth_answerL"
                 android:layout_marginLeft="@dimen/marginLeftbutton"
+                android:layout_marginBottom="@dimen/marginLeftbutton"
 
                 />
 
@@ -595,7 +608,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/marginLeftbutton"
-                android:text="@string/first_answerM" />
+                android:text="@string/first_answerM"
+                android:layout_marginTop="@dimen/marginLeftbutton"
+                />
 
             <RadioButton
                 android:id="@+id/two_box"
@@ -609,7 +624,7 @@
                 android:id="@+id/three"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/third_answerL"
+                android:text="@string/third_answerM"
                 android:layout_marginLeft="@dimen/marginLeftbutton"
                 />
 
@@ -618,7 +633,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/marginLeftbutton"
-                android:text="@string/fourth_answerL"
+                android:text="@string/fourth_answerM"
+                android:layout_marginBottom="@dimen/marginLeftbutton"
 
 
                 />
@@ -634,29 +650,29 @@
 
 
             android:onClick="checkQuiz"
-            android:text="Quiz Result"
+            android:text="@string/buttonQuiz"
             android:textColor="@color/ColorRed"
             android:layout_marginTop="@dimen/textMain"
             android:layout_marginBottom="@dimen/textMain"
 
             />
-        <LinearLayout
-            android:layout_width="match_parent"
+
+        <Button
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/custom_toast_container"
+
+            android:layout_gravity="center"
+            android:background="@drawable/button"
 
 
-            >
-
-            <TextView android:id="@+id/text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="#FFF"
-                />
+            android:onClick="resetQuiz"
+            android:text="Reset Quiz"
+            android:textColor="@color/ColorRed"
+            android:layout_marginTop="@dimen/textMain"
+            android:layout_marginBottom="@dimen/textMain"
 
 
-
-        </LinearLayout>
+            />
 
 
     </LinearLayout>

@@ -3,6 +3,7 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:radioButtonStyle">@style/MyRadioButton</item>
+        <item name="android:checkboxStyle">@style/Mycheckbox</item>
 
 
         <!-- Customize your theme here. -->
@@ -20,7 +21,15 @@
         <item name="android:textColor">#F44336</item>
         <item name="android:textStyle">bold|italic</item>
         <item name="android:gravity">center</item>
+
     </style>
+    <style name="Mycheckbox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+
+        <item name="android:textColor">@color/ColorGreen</item>
+        <item name="android:textSize">15sp</item>
+
+    </style>
+
 
 
 
