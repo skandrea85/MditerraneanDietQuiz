@@ -5,6 +5,7 @@
     <dimen name="textMain">25sp</dimen>
     <dimen name="dimen_hint">90dp</dimen>
     <dimen name="marginLeftbutton">20dp</dimen>
+    <dimen name="toast">20sp</dimen>
 
 
 
